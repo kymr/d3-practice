@@ -1,3 +1,3 @@
 # d3-practice
-## Mike Bostock
+### Mike Bostock's workshop
 http://bost.ocks.org/mike/d3/workshop/#0
