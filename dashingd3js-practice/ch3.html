@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="../d3.v3.min.js"></script>
+	</head>
+	<body>
+	</body>
+	
+</html>
+
+<script>
+//Make an SVG Container
+var svgContainer = d3.select("body").append("svg")
+                                    .attr("width", 200)
+                                    .attr("height", 200);
+
+
+//Draw the Rectangle
+var rectangle = svgContainer.append("rect")
+                        .attr("x", 10)
+                        .attr("y", 10)
+                        .attr("width", 50)
+                        .attr("height", 100);
+                        
+//Draw the Ellipse
+var circle = svgContainer.append("ellipse")
+                     .attr("cx", 50)
+                     .attr("cy", 50)
+                     .attr("rx", 25)
+                     .attr("ry", 10);
+                       
+var circle = svgContainer.append("line")
+                         .attr("x1", 5)
+                         .attr("y1", 5)
+                         .attr("x2", 50)
+                         .attr("y2", 50)
+                         .attr("stroke-width", 2)
+                         .attr("stroke", "black");
+</script>
